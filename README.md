@@ -1,4 +1,4 @@
-# Social Media Website
+# Auction Site (client side)
 
 This is the frontend for an Auction site built in React.js, where people can create an auction for their items, and also they can bid on items they like, and the highest bidder wins the auction.
 
@@ -84,6 +84,7 @@ npm start
 | `/dashboard/myAccount` | DashboardMyAccount | user only   | Shows all of the user info, and he/she can edit any info    |
 | `/dashboard/myItems`   | DashboardMyItems   | user only   | Shows all of the user items, and he/she can edit any item   |
 | `/dashboard/myBids`    | DashboardMyBids    | user only   | Shows all of the user bids                                  |
+| `/dashboard/watchList`    | DashboardWatchList    | user only   | Shows the user watch list                                  |
 | `/dashboard/items`     | DashboardItems     | admin only  | Shows all items in website                                  |
 | `/dashboard/users`     | DashboardUsers     | admin only  | Shows all users in website                                  |
 | `/dashboard/reports`   | DashboardReports   | admin only  | Shows reports in website, and admin can change their status |
@@ -93,17 +94,18 @@ npm start
 
 ## Components
 
-- Login
-- Signup
 - Home
 - Explore
 - Item
 - Profile
+- Login
+- Signup
 - addItem
 - EditItem
 - Dashboard
 - DashboardMyAccount
 - DashboardMyItems
+- DashboardWatchList
 - DashboardMyBids
 - DashboardItems
 - DashboardUsers
@@ -114,4 +116,79 @@ npm start
 
 ## UML Diagram
 
+![masterpiece frontend UML](https://user-images.githubusercontent.com/92247874/146651831-014ab5a9-92e1-46cf-83f6-07f4da0c3ea1.jpg)
+
+
 ## Wireframes
+
+### Home
+
+![Home](https://user-images.githubusercontent.com/92247874/146651652-062c54f7-c315-457d-8439-67372b5867e2.png)
+
+### Explore
+
+![Explore](https://user-images.githubusercontent.com/92247874/146651658-dd326c65-147b-4847-9e50-386704e6bc59.png)
+
+### Item
+
+![Item](https://user-images.githubusercontent.com/92247874/146651738-abe1ef8d-11ec-445c-b3d3-f5fce5b4152a.png)
+
+
+### Profile
+
+![Profile](https://user-images.githubusercontent.com/92247874/146651744-7848b363-4842-4fc4-aa2b-d912e97a19f4.png)
+
+
+### Login
+
+![Login](https://user-images.githubusercontent.com/92247874/146651749-787bf85a-004c-49db-a7d9-945f41755ded.png)
+
+
+### Signup
+
+![Signup](https://user-images.githubusercontent.com/92247874/146651751-d5769588-358d-4a52-bbdb-227868d5766b.png)
+
+
+### addItem
+
+![add item](https://user-images.githubusercontent.com/92247874/146651752-dbc3bac2-d037-46bd-bcbc-7c4ed48ba150.png)
+
+
+### EditItem
+
+![edit item](https://user-images.githubusercontent.com/92247874/146651757-339daf02-430d-4ac3-8ae3-8aae70bee333.png)
+
+
+### DashboardMyAccount
+
+![DashboardMyAccount](https://user-images.githubusercontent.com/92247874/146651770-591be60a-c07b-4f01-958d-1dbd4b988f56.png)
+
+
+### DashboardMyItems
+
+![DashboardMyItems](https://user-images.githubusercontent.com/92247874/146651772-3171bb6e-81ac-422e-ae29-dcdfd4645ec8.png)
+
+
+### DashboardWatchList
+
+![DashboardWatchList](https://user-images.githubusercontent.com/92247874/146651773-57703a8c-16c1-4db2-b50f-792b6b32ae07.png)
+
+
+### DashboardMyBids
+
+![DashboardMyBids](https://user-images.githubusercontent.com/92247874/146651775-84fcff87-e9fe-491d-a9df-27b13e7c0f43.png)
+
+### DashboardItems
+
+![DashboardItems](https://user-images.githubusercontent.com/92247874/146651778-2444978b-c7ee-48b4-80c8-7fca99ed7b86.png)
+
+### DashboardUsers
+
+![DashboardUsers](https://user-images.githubusercontent.com/92247874/146651791-e705f3f1-dc6c-4533-a888-34afa39e95a0.png)
+
+
+### DashboardReports
+
+![DashboardReports](https://user-images.githubusercontent.com/92247874/146651783-b540d31a-aba7-4094-8628-ea7e20dbc5bd.png)
+
+
