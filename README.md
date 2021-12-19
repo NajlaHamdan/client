@@ -7,13 +7,15 @@ This is the frontend for an Auction site built in React.js, where people can cre
 
 </div>
 
-Deployment: https://Deployment
+➤ Server side: https://github.com/MP-Project-ibrahimalsaif/server
 
-While running locally: http://localhost:3000
+➤ Deployment: https://Deployment
 
-Trello: https://trello.com/b/GMe6Tyz1/mp-project-ibrahimalsaif
+➤ While running locally: http://localhost:3000
 
-Slides: https://Slides
+➤ Trello: https://trello.com/b/GMe6Tyz1/mp-project-ibrahimalsaif
+
+➤ Slides: https://Slides
 
 ## ⚪ User Stories
 
