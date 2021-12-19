@@ -15,7 +15,7 @@ Trello: https://trello.com/b/GMe6Tyz1/mp-project-ibrahimalsaif
 
 Slides: https://Slides
 
-## ⚫ User Stories
+## ⚪ User Stories
 
 - A guest can browse the site a see all the available auctions without the need for sign-in.
 - A guest must have an account and log-in if they want to use the site features.
@@ -68,7 +68,7 @@ This will install all of the required packages.
 
 - [popup-tools](https://www.npmjs.com/package/popup-tools) Several simple tools to handle popups with callbacks. Posting data to popups as well as receiving data from them.
 
-## ⚫ Running the server
+## ⚪ Running the server
 
 To run the server, execute:
 
@@ -76,7 +76,7 @@ To run the server, execute:
 npm start
 ```
 
-## ⚫ Router Routes
+## ⚪ Router Routes
 
 | Path                   | Component          | Permissions | Behavior                                                    |
 | ---------------------- | ------------------ | ----------- | ----------------------------------------------------------- |
@@ -100,7 +100,7 @@ npm start
 | `/verify_from_email`   | VerifyFromEmail    | user only   | A wlecome page to a user after register                     |
 | `/reset_password/id`   | ResetPassword      | user only   | A page to let a user change his password                    |
 
-## ⚫ Components
+## ⚪ Components
 
 - Home
 - Explore
@@ -122,12 +122,12 @@ npm start
 - VerifyFromEmail
 - ResetPassword
 
-## ⚫ UML Diagram
+## ⚪ UML Diagram
 
 ![masterpiece frontend UML](https://user-images.githubusercontent.com/92247874/146672674-67833d1b-51d5-452f-828b-f5eea7948574.jpg)
 
 
-## ⚫ Wireframes
+## ⚪ Wireframes
 
 ### ■ Home
 
