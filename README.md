@@ -1,35 +1,42 @@
-# Auction Site (client side)
+<div align="center">
+<h1>Auction Site (client side)</h1>
 
 This is the frontend for an Auction site built in React.js, where people can create an auction for their items, and also they can bid on items they like, and the highest bidder wins the auction.
 
-Trello: https://trello.com/b/GMe6Tyz1/mp-project-ibrahimalsaif
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+
+</div>
+
+Deployment: https://Deployment
 
 While running locally: http://localhost:3000
 
-## User Stories
+Trello: https://trello.com/b/GMe6Tyz1/mp-project-ibrahimalsaif
 
-- A user can browse the site a see all the available auctions without the need for sign-in.
-- A user must have an account and log-in if they want to use the site features.
-- A logged-in user can bid on an auction.
-- A logged-in user can add auctions in his own watch list.
-- A logged-in user can create auctions for people to start bidding on.
-- A logged-in user has his own dashboard with all of his information and statistics.
-- A logged-in user can edit his information from name, avatar, ... etc.
-- A logged-in user can edit his auction information.
-- A logged-in user with role `admin` has all the features of a regular user.
-- A logged-in user with role `admin` can change any auction status.
-- A logged-in user with role `admin` has a dashboard with all of the site information and statistics.
+Slides: https://Slides
+
+## ⚫ User Stories
+
+- A guest can browse the site a see all the available auctions without the need for sign-in.
+- A guest must have an account and log-in if they want to use the site features.
+- A user can bid on an auction.
+- A user can add auctions in his own watch list.
+- A user can create auctions for people to start bidding on.
+- A user has his own dashboard with all of his information and statistics.
+- A user can edit his information from name, avatar, ... etc.
+- A user can edit his auction information.
+- A user with role `admin` has all the features of a regular user.
+- A user with role `admin` can change any auction status.
+- A user with role `admin` has a dashboard with all of the site information and statistics.
 - A user can report a scammer to the admin so he can't bid or create an auction again.
 
-## Getting Started
+### ■ Installing Dependencies
 
-### Installing Dependencies
-
-#### Node js
+#### ▸ Node js
 
 Follow instructions to install the latest version of Node js for your platform in the [Node js docs](https://nodejs.org/en/).
 
-#### NPM Dependencies
+#### ▸ NPM Dependencies
 
 Once you have the project in your local machine, install dependencies by running:
 
@@ -39,7 +46,7 @@ npm install
 
 This will install all of the required packages.
 
-##### Key Dependencies
+#### ▸ Key Dependencies
 
 - [React](https://reactjs.org/) A JavaScript library for building user interfaces.
 
@@ -61,7 +68,7 @@ This will install all of the required packages.
 
 - [popup-tools](https://www.npmjs.com/package/popup-tools) Several simple tools to handle popups with callbacks. Posting data to popups as well as receiving data from them.
 
-## Running the server
+## ⚫ Running the server
 
 To run the server, execute:
 
@@ -69,7 +76,7 @@ To run the server, execute:
 npm start
 ```
 
-## Router Routes
+## ⚫ Router Routes
 
 | Path                   | Component          | Permissions | Behavior                                                    |
 | ---------------------- | ------------------ | ----------- | ----------------------------------------------------------- |
@@ -93,7 +100,7 @@ npm start
 | `/verify_from_email`   | VerifyFromEmail    | user only   | A wlecome page to a user after register                     |
 | `/reset_password/id`   | ResetPassword      | user only   | A page to let a user change his password                    |
 
-## Components
+## ⚫ Components
 
 - Home
 - Explore
@@ -115,80 +122,80 @@ npm start
 - VerifyFromEmail
 - ResetPassword
 
-## UML Diagram
+## ⚫ UML Diagram
 
 ![masterpiece frontend UML](https://user-images.githubusercontent.com/92247874/146672674-67833d1b-51d5-452f-828b-f5eea7948574.jpg)
 
 
-## Wireframes
+## ⚫ Wireframes
 
-### Home
+### ■ Home
 
 ![Home](https://user-images.githubusercontent.com/92247874/146651652-062c54f7-c315-457d-8439-67372b5867e2.png)
 
-### Explore
+### ■ Explore
 
 ![Explore](https://user-images.githubusercontent.com/92247874/146651658-dd326c65-147b-4847-9e50-386704e6bc59.png)
 
-### Auction
+### ■ Auction
 
 ![Item](https://user-images.githubusercontent.com/92247874/146651738-abe1ef8d-11ec-445c-b3d3-f5fce5b4152a.png)
 
 
-### Profile
+### ■ Profile
 
 ![Profile](https://user-images.githubusercontent.com/92247874/146651744-7848b363-4842-4fc4-aa2b-d912e97a19f4.png)
 
 
-### Login
+### ■ Login
 
 ![Login](https://user-images.githubusercontent.com/92247874/146651749-787bf85a-004c-49db-a7d9-945f41755ded.png)
 
 
-### Signup
+### ■ Signup
 
 ![Signup](https://user-images.githubusercontent.com/92247874/146651751-d5769588-358d-4a52-bbdb-227868d5766b.png)
 
 
-### CreateAuction
+### ■ CreateAuction
 
 ![add item](https://user-images.githubusercontent.com/92247874/146651752-dbc3bac2-d037-46bd-bcbc-7c4ed48ba150.png)
 
 
-### EditAuction
+### ■ EditAuction
 
 ![edit item](https://user-images.githubusercontent.com/92247874/146651757-339daf02-430d-4ac3-8ae3-8aae70bee333.png)
 
 
-### DashboardMyAccount
+### ■ DashboardMyAccount
 
 ![DashboardMyAccount](https://user-images.githubusercontent.com/92247874/146651770-591be60a-c07b-4f01-958d-1dbd4b988f56.png)
 
 
-### DashboardMyAuctions
+### ■ DashboardMyAuctions
 
 ![DashboardMyItems](https://user-images.githubusercontent.com/92247874/146651772-3171bb6e-81ac-422e-ae29-dcdfd4645ec8.png)
 
 
-### DashboardWatchList
+### ■ DashboardWatchList
 
 ![DashboardWatchList](https://user-images.githubusercontent.com/92247874/146651773-57703a8c-16c1-4db2-b50f-792b6b32ae07.png)
 
 
-### DashboardMyBids
+### ■ DashboardMyBids
 
 ![DashboardMyBids](https://user-images.githubusercontent.com/92247874/146651775-84fcff87-e9fe-491d-a9df-27b13e7c0f43.png)
 
-### DashboardAuctions
+### ■ DashboardAuctions
 
 ![DashboardItems](https://user-images.githubusercontent.com/92247874/146651778-2444978b-c7ee-48b4-80c8-7fca99ed7b86.png)
 
-### DashboardUsers
+### ■ DashboardUsers
 
 ![DashboardUsers](https://user-images.githubusercontent.com/92247874/146651791-e705f3f1-dc6c-4533-a888-34afa39e95a0.png)
 
 
-### DashboardReports
+### ■ DashboardReports
 
 ![DashboardReports](https://user-images.githubusercontent.com/92247874/146651783-b540d31a-aba7-4094-8628-ea7e20dbc5bd.png)
 
