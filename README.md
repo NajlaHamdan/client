@@ -2,23 +2,24 @@
 
 This is the frontend for an Auction site built in React.js, where people can create an auction for their items, and also they can bid on items they like, and the highest bidder wins the auction.
 
+Trello: https://trello.com/b/GMe6Tyz1/mp-project-ibrahimalsaif
+
 While running locally: http://localhost:3000
 
 ## User Stories
 
-- A user can browse the website a see all the available products without the need for sign-in.
-- A user must have an account and log-in if they want to use website features.
-- A logged-in user can bid on an item.
-- A logged-in user can add items in his own watch list.
-- A logged-in user can add items for people to start bidding on.
+- A user can browse the site a see all the available auctions without the need for sign-in.
+- A user must have an account and log-in if they want to use the site features.
+- A logged-in user can bid on an auction.
+- A logged-in user can add auctions in his own watch list.
+- A logged-in user can create auctions for people to start bidding on.
 - A logged-in user has his own dashboard with all of his information and statistics.
 - A logged-in user can edit his information from name, avatar, ... etc.
-- A logged-in user can edit his bids information.
-- A logged-in user can delete his bids.
+- A logged-in user can edit his auction information.
 - A logged-in user with role `admin` has all the features of a regular user.
-- A logged-in user with role `admin` can delete any bid.
-- A logged-in user with role `admin` has a dashboard with all of the website information and statistics.
-- A user can report a scammer to the admin so he can't bid again.
+- A logged-in user with role `admin` can change any auction status.
+- A logged-in user with role `admin` has a dashboard with all of the site information and statistics.
+- A user can report a scammer to the admin so he can't bid or create an auction again.
 
 ## Getting Started
 
@@ -73,21 +74,21 @@ npm start
 | Path                   | Component          | Permissions | Behavior                                                    |
 | ---------------------- | ------------------ | ----------- | ----------------------------------------------------------- |
 | `/`                    | Home               | public      | Home page, show items, about, how it works                  |
-| `/explore`             | Explore            | public      | Shows all items                                             |
-| `/explore/:id`         | Item               | public      | See an Item description, and also you can bid               |
+| `/explore`             | Explore            | public      | Shows all auctions                                             |
+| `/explore/:id`         | Auction               | public      | See an auction description, and also you can bid               |
 | `/users/:id`           | Profile            | public      | See a user profile, with all of his auctions                |
 | `/signup`              | Signup             | public      | Signup form, navigate to login after signup                 |
-| `/login`               | Login              | public      | Login form, navigate to todos after login                   |
-| `/addItem`             | addItem            | user only   | Create a new auction                                        |
-| `/EditItem`            | EditItem           | user only   | Edit an auction                                             |
+| `/login`               | Login              | public      | Login form, navigate to home after login                   |
+| `/addItem`             | createAuction            | user only   | Create a new auction                                        |
+| `/EditItem`            | EditAuction           | user only   | Edit an auction                                             |
 | `/dashboard`           | Dashboard          | user only   | Shows all of the user info                                  |
 | `/dashboard/myAccount` | DashboardMyAccount | user only   | Shows all of the user info, and he/she can edit any info    |
-| `/dashboard/myItems`   | DashboardMyItems   | user only   | Shows all of the user items, and he/she can edit any item   |
+| `/dashboard/myItems`   | DashboardMyAuctions   | user only   | Shows all of the user auctions, and he/she can edit any auction   |
 | `/dashboard/myBids`    | DashboardMyBids    | user only   | Shows all of the user bids                                  |
 | `/dashboard/watchList`    | DashboardWatchList    | user only   | Shows the user watch list                                  |
-| `/dashboard/items`     | DashboardItems     | admin only  | Shows all items in website                                  |
-| `/dashboard/users`     | DashboardUsers     | admin only  | Shows all users in website                                  |
-| `/dashboard/reports`   | DashboardReports   | admin only  | Shows reports in website, and admin can change their status |
+| `/dashboard/items`     | DashboardAuctions     | admin only  | Shows all auctions in site                                  |
+| `/dashboard/users`     | DashboardUsers     | admin only  | Shows all users in site                                  |
+| `/dashboard/reports`   | DashboardReports   | admin only  | Shows reports in the site, and admin can change their status |
 | `/verify_account/id`   | VerifyTheAccount   | user only   | A page enables the user to activate their account           |
 | `/verify_from_email`   | VerifyFromEmail    | user only   | A wlecome page to a user after register                     |
 | `/reset_password/id`   | ResetPassword      | user only   | A page to let a user change his password                    |
@@ -96,18 +97,18 @@ npm start
 
 - Home
 - Explore
-- Item
+- Auction
 - Profile
 - Login
 - Signup
-- addItem
-- EditItem
+- CreateAuction
+- EditAuction
 - Dashboard
 - DashboardMyAccount
-- DashboardMyItems
+- DashboardMyAuctions
 - DashboardWatchList
 - DashboardMyBids
-- DashboardItems
+- DashboardAuctions
 - DashboardUsers
 - DashboardReports
 - VerifyTheAccount
@@ -116,7 +117,7 @@ npm start
 
 ## UML Diagram
 
-![masterpiece frontend UML](https://user-images.githubusercontent.com/92247874/146651831-014ab5a9-92e1-46cf-83f6-07f4da0c3ea1.jpg)
+![masterpiece frontend UML](https://user-images.githubusercontent.com/92247874/146672674-67833d1b-51d5-452f-828b-f5eea7948574.jpg)
 
 
 ## Wireframes
@@ -129,7 +130,7 @@ npm start
 
 ![Explore](https://user-images.githubusercontent.com/92247874/146651658-dd326c65-147b-4847-9e50-386704e6bc59.png)
 
-### Item
+### Auction
 
 ![Item](https://user-images.githubusercontent.com/92247874/146651738-abe1ef8d-11ec-445c-b3d3-f5fce5b4152a.png)
 
@@ -149,12 +150,12 @@ npm start
 ![Signup](https://user-images.githubusercontent.com/92247874/146651751-d5769588-358d-4a52-bbdb-227868d5766b.png)
 
 
-### addItem
+### CreateAuction
 
 ![add item](https://user-images.githubusercontent.com/92247874/146651752-dbc3bac2-d037-46bd-bcbc-7c4ed48ba150.png)
 
 
-### EditItem
+### EditAuction
 
 ![edit item](https://user-images.githubusercontent.com/92247874/146651757-339daf02-430d-4ac3-8ae3-8aae70bee333.png)
 
@@ -164,7 +165,7 @@ npm start
 ![DashboardMyAccount](https://user-images.githubusercontent.com/92247874/146651770-591be60a-c07b-4f01-958d-1dbd4b988f56.png)
 
 
-### DashboardMyItems
+### DashboardMyAuctions
 
 ![DashboardMyItems](https://user-images.githubusercontent.com/92247874/146651772-3171bb6e-81ac-422e-ae29-dcdfd4645ec8.png)
 
@@ -178,7 +179,7 @@ npm start
 
 ![DashboardMyBids](https://user-images.githubusercontent.com/92247874/146651775-84fcff87-e9fe-491d-a9df-27b13e7c0f43.png)
 
-### DashboardItems
+### DashboardAuctions
 
 ![DashboardItems](https://user-images.githubusercontent.com/92247874/146651778-2444978b-c7ee-48b4-80c8-7fca99ed7b86.png)
 
